@@ -49,7 +49,7 @@ const AllProducts = () => {
     }
   });
 
-  const pageSizeOptions = [24, 48, 72, 100];
+  const pageSizeOptions = [24, 48, 72, 100, 500, 2000, 5000];
 
   // Local state for UI-specific functionality
   const [categorySearch, setCategorySearch] = useState('');
